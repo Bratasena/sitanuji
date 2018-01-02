@@ -1,0 +1,94 @@
+
+/*hanya dapat dipanggil sekali*/
+.atas{
+	position: relative;
+	
+}
+
+
+/*agar dapat dipanggil berulang kali*/
+#background{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+#menu{
+	width: 100%;
+	height: 40px;
+	background-color: blue;
+	position: relative;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menu ul li{
+	float: left;
+}
+#menu ul li a{
+	float: left;
+	color: #d4d4d4;
+	padding: 12px 20px;
+	text-decoration: none;
+	background: maroon;
+	border-left: 1px solid #3C4042;
+	border-right: 1px solid #3C4042;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.6);
+}
+#menu ul li a:hover{
+	color: white;
+	background: #3C4042;
+}
+
+#running{
+	width: 100%;
+	height: 30px;
+	padding-top: 7px;
+	margin: 5px 0 5px 0;
+	background-color: gray;
+	color: white;
+	position:relative;
+}
+#isi {
+	padding: 5px;
+	width: 100%;
+	height: auto;
+	background-color: #ffffff
+	position: relative;
+	margin-top: 20px;
+}
+.isiposting {
+	background:rgba(0,0,0,0);
+	width: 99%;
+	height: 150px;
+	margin-bottom: 5px;
+	/*padding: 5px;*/
+
+}
+.gambardepan {
+	float: left;
+	height: 140px;
+	width: 150px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border: 1px solid #dddddd;
+}
+.isipostingh2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+.isiposting a{
+	text-decoration: none;
+}
+.isiposting a:hover{
+color: blue;
+}
+.transparan2{
+	
+}
